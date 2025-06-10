@@ -1,0 +1,10 @@
+[project]
+name = "smart-student-assistant-agent"
+version = "0.1.0"
+description = "A CLI based stateless study agent that helps students with their study in concise manner."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "openai-agents>=0.0.17",
+    "python-dotenv>=1.1.0",
+]
